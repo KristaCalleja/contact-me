@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact me</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -14,11 +15,16 @@
             <div class="form">
                 <h1>Want to work together?</h1>
                 <form action="#">
-                    <input type="text" placeholder="First name">
-                    <input type="text" placeholder="Last name">
-                    <input type="text" placeholder="Email">
-                    <input type="text" placeholder="LinkedIn/Github profile">
-                    <input type="text" placeholder="What you're looking for">
+                    <input type="text" required onfocus="watermark(this, event);" onblur="watermark(this, event);"
+                        placeholder="First name">
+                    <input type="text" required onfocus="watermark(this, event);" onblur="watermark(this, event);"
+                        placeholder="Last name">
+                    <input type="text" required onfocus="watermark(this, event);" onblur="watermark(this, event);"
+                        placeholder="Email">
+                    <input type="text" required onfocus="watermark(this, event);" onblur="watermark(this, event);"
+                        placeholder="LinkedIn/Github profile">
+                    <input type="text" required onfocus="watermark(this, event);" onblur="watermark(this, event);"
+                        placeholder="What you're looking for">
                     <div>
                         <button>Send</button>
                     </div>
@@ -26,7 +32,7 @@
             </div>
             <div class="images">
                 <div class="circle"></div>
-                <img src="profile.png" alt="">
+                <img src="WhatsApp_Image_2021-08-05_at_09.28.123-removebg-preview.png" alt="">
             </div>
         </div>
     </div>

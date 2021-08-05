@@ -65,6 +65,11 @@ input[type=text]{
     box-shadow: 1px 2px 9px -4px #000001;
     letter-spacing: .08em;
 }
+.new-div{
+    color: red;
+    font-size: 9px;
+    margin: auto;
+}
 button{
     padding: 1em 3em;
     text-transform: uppercase;
