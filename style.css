@@ -14,7 +14,7 @@ body{
 }
 .main{
     background-image: url(index.png);
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center;
 }
@@ -92,7 +92,7 @@ button:active{
 }
 @media(min-width:900px){
     .main{
-        height: auto;
+        height: 100vh;
     }
     .wrapper{
         max-width: 1200px;
